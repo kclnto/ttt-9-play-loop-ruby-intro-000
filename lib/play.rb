@@ -36,6 +36,7 @@ def turn(board)
 end
 
 def play(board)
+  rounds = 0
   9.times do
     turn(board)
   end
